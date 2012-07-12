@@ -11,6 +11,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import vikram.demo.springmvc.argresolver.PersonEntity;
+import vikram.demo.springmvc.domain.Person;
+
 /**
  * Handles requests for the application home page.
  */
@@ -35,5 +38,7 @@ public class HomeController {
 		
 		return "home";
 	}
+	
+	
 	
 }
